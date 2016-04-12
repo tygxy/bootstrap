@@ -1,0 +1,339 @@
+body{
+	font-family: '微软雅黑','Arial Unicode MS', sans-serif;
+	text-align: center !important; 
+    position: relative;
+}
+
+#navbar{
+    z-index: 1;
+    background-color: #fff;
+}
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-ul{
+    margin-top: 10px;
+}
+
+.navbar-ul a{
+	color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent !important;
+}
+
+#nav_ul >li>a:hover{
+    background-color: transparent;
+    color: #000 !important;
+}
+
+.top-nav-collapse {
+    padding: 0px;
+    background: #fff !important;
+    padding: 4px 0 14px 0 !important;
+    margin: 0px;
+    margin: -9px auto;
+    border: none !important;
+    color: #000;
+}
+
+.top-nav-collapse .navbar-brand {
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #222;
+}
+
+.nav-changeblack{
+   color: #000 !important;
+}
+
+#container-weixin p:hover{
+    font-weight: bold;
+}
+
+#container-weixin h4:hover{
+    font-weight: bold;
+}
+
+.img_winxin_css{
+    margin-top: 100px;
+}
+
+
+
+/* Intro Top content styles
+================================================== */
+.cover {
+    background: url(../img/overlay.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 400px 0 330px;
+    text-align: center;
+    color: #000;
+    position: relative;
+    z-index:1;
+    background:url(../img/bg10.jpg) no-repeat center;
+}
+
+.intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.brand-heading {
+    font-size: 36px;
+    margin: 0px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.intro-text {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px;
+    color:#fff;
+}
+
+.line {
+    background: #fff;
+    width: 80px;
+    height: 1px;
+    margin: 25px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.line1 {
+    background: #000;
+    width: 80px;
+    height: 1px;
+    margin: 25px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.line3 {
+    background: #000;
+    width: 80px;
+    height: 1px;
+    margin: 25px auto;
+    position: relative;
+    z-index: 1;
+}
+
+#intro-slider .controlNav {
+    display: none;
+}
+
+#intro-slider .flex-direction-nav {
+    display: none;
+}
+
+
+/***************************************Contact界面***********************************************/
+.weixincss{
+    min-height: 250px;
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.weixincss h3{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "微软雅黑";
+    margin-bottom: 40px;
+}
+#part2 span{
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+#part2 h4{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Arial Unicode MS';
+    margin-bottom: 30px;
+}
+
+#part2 p{
+    margin:5px;
+    font-size: 14px;
+}
+
+#weixin{
+    margin-top: 40px;
+}
+
+footer{
+    margin-top: 100px;
+    min-height: 100px;
+    background-color: #222;
+    color: #fff;
+    font-size: 15px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+#logo1{
+    margin-top: 15px;
+}
+
+/***************************************Home界面***********************************************/
+#CompanyIntroduce h3{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "微软雅黑";
+    margin-bottom: 50px;
+}
+
+#CompanyIntroduce p{
+    text-align: left;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+
+#CompanyIntroduce{
+    padding-top: 100px;
+    min-height: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*******************************product界面*******************************/
+.body {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.product{
+    background-color: transparent !important;
+    border:none;
+}
+
+.leftnav-header{
+    width: 35%;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 60px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#myScrollspy{
+    margin-top: 20px;
+}
+
+.leftnav-header-big{
+    text-align: left;
+    font-size: 15px;
+    margin-left: 30px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.panel h1{
+    text-align: left;
+    font-size: 35px;
+    font-family: "微软雅黑";
+    color: #fff;
+}
+
+.panel h2{
+    text-align: left;
+    font-size: 25px;
+    font-family: "微软雅黑";
+    margin-top: 50px;
+}
+
+.panel p{
+    text-align: left;
+    font-size: 15px;
+    font-family: "微软雅黑";
+    margin-left: 50px;
+}
+
+.panel ul>li{
+    font-size: 15px;
+    font-family: "微软雅黑";
+    text-align: left;
+    margin-top: 8px;
+    list-style-type:circle;
+}
+
+#pmjgq-value{
+    margin-top: 210px;
+    margin-bottom: 30px;
+}
+
+table{
+    font-size: 15px;
+}
+
+.mgtop{
+  margin-top:60px;
+}
+
+#panel2{
+    margin-top: 100px;
+}
+
+.navbar-default .navbar-nav>.active>a{
+    background-color: transparent !important;
+    color: #000;
+    font-weight: bolder;
+    border-left: solid 2px;
+}
+
+.test{
+
+}
+
+/*******************************查询界面*******************************/
+
+.detail{
+    overflow: hidden;
+    padding: 50px 0px 0px 0px;
+    min-height: 600px;
+}
+.no-padding {
+    padding: 0px !important;
+}
+.selector{
+    width:110px;
+    display:inline;
+}
+.selector1{
+    width:180px;
+    display:inline;
+}
+.juzhong{
+    margin:0px auto 40px;
+}
+
+.querytable tr:hover{
+    background-color: #DDD;
+}
+.txtreturn{
+    font-weight: bold;
+    font-size: 15px;
+}
